@@ -31,13 +31,16 @@
     "@types/papaparse": "^5.2.5",
     "@types/react-select": "^4.0.17",
     "@types/react-table": "^7.7.1",
-    "@types/uuid": "^8.3.1"
+    "@types/uuid": "^8.3.1",
+    "gh-pages": "^6.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
