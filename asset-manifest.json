@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/variant-scorer/static/css/main.05f7aa32.css",
-    "main.js": "/variant-scorer/static/js/main.2287904b.js",
+    "main.js": "/variant-scorer/static/js/main.0bcfbb9b.js",
     "static/js/787.6d5cdf2a.chunk.js": "/variant-scorer/static/js/787.6d5cdf2a.chunk.js",
     "static/media/error_icon.svg": "/variant-scorer/static/media/error_icon.ee07de1280121c4a01f3c9d515637f24.svg",
     "static/media/sort_icon.svg": "/variant-scorer/static/media/sort_icon.86d67f70fa46fe600fed2b647f531494.svg",
@@ -12,11 +12,11 @@
     "static/media/down_arrow_icon.svg": "/variant-scorer/static/media/down_arrow_icon.4f1d5ef15d59487e0d3e7405abc712b0.svg",
     "static/media/github_corner.svg": "/variant-scorer/static/media/github_corner.e1cb9ed8cf1597eec3868a4d511e8120.svg",
     "main.05f7aa32.css.map": "/variant-scorer/static/css/main.05f7aa32.css.map",
-    "main.2287904b.js.map": "/variant-scorer/static/js/main.2287904b.js.map",
+    "main.0bcfbb9b.js.map": "/variant-scorer/static/js/main.0bcfbb9b.js.map",
     "787.6d5cdf2a.chunk.js.map": "/variant-scorer/static/js/787.6d5cdf2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05f7aa32.css",
-    "static/js/main.2287904b.js"
+    "static/js/main.0bcfbb9b.js"
   ]
 }
