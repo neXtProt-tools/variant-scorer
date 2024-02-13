@@ -125,10 +125,10 @@ function ScorerViewer(props: any) {
             {!entry &&
                 <>
                     <h4>Please provide a neXtProt Entry</h4>
-                    <h4>Currently only supports {supportedEntries.join(',')}</h4>
+                    <h4>Currently only supports {supportedEntries.map((entry: string) => (<span style={{paddingRight: '5px'}}><a target='_blank' href={`https://www.nextprot.org/entry/${entry}/gh/nextprot-tools/variant-scorer`}>{entry}</a></span>))}</h4>
                 </>
             }
-            {entry && !isSupportedEntry() && <h4>Currently only supports {supportedEntries.join(',')}</h4>}
+            {entry && !isSupportedEntry() && <h4>Currently only supports {supportedEntries.map((entry: string) => (<span><a href={`https://www.nextprot.org/entry/${entry}/gh/nextprot-tools/variant-scorer`}>{entry}</a></span>))}</h4>}
             {entry && errorInput && <h4>Uploaded might not be in the expected format!</h4>}
         </>
     )
